@@ -16,7 +16,7 @@
 # 3. Run on the server:
 #
 #       # Replace this URL by your own that has your pubkey in
-#       curl -L https://raw.githubusercontent.com/nix-community/nixos-install-scripts/master/hosters/hetzner-cloud/nixos-install-hetzner-cloud.sh | sudo bash
+#       curl -L https://raw.githubusercontent.com/jlesquembre/nixos-install-scripts/master/hosters/hetzner-cloud/nixos-install-hetzner-cloud.sh | sudo bash
 # 4. Unmount the ISO image from the Hetzner Cloud GUI.
 # 5. Reboot.
 #
