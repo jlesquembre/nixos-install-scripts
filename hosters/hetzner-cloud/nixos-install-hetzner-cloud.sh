@@ -64,7 +64,7 @@ echo '
 
   # Replace this by your SSH pubkey
   users.users.root.openssh.authorizedKeys.keys = [
-    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAtwCIGPYJlD2eeUtxngmT+4yR7BMlK0F5kzj+84uHsxxsy+PXFrP/tScCpwmuoiEYNv/9WKnPJJfCA9XlIDr6cla1MLpaW6eg672TRYMmKzH6SLlkg+kyDmPxSIJw+KdKfnPYyva+Y/VocACYJo0voabUeLAVgtSKGz/AFzccjfOR0GmFO911zjAaR+jFb9M7t7dveNVKm9KbuBfu3giMgGg3/mKz1TKY8yk2ZOxpT5CllBb+B5BcEf+7IGNvNxr1Z0zz5cFXQ3LyBIZklnC/OaQCnD78BSiyPTkIXcmBFal2TaFwTDvki6PuCRpJy+dU1fDdgWLql97D0SVnjmmomw=="
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIO8qwM9dPUwYV7bo3jIJThyxeSLZI8qvHq3e0o75nLIo openpgp:0x3BB9B1EC"
   ];
 }
 ' >> /mnt/etc/nixos/configuration.nix
